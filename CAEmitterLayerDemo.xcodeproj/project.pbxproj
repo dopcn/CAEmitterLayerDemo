@@ -14,6 +14,8 @@
 		876932471E95F15F0098F54F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 876932461E95F15F0098F54F /* Assets.xcassets */; };
 		8769324A1E95F15F0098F54F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 876932481E95F15F0098F54F /* LaunchScreen.storyboard */; };
 		876932551E95F15F0098F54F /* CAEmitterLayerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 876932541E95F15F0098F54F /* CAEmitterLayerDemoTests.m */; };
+		876932611E961A260098F54F /* SettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 876932601E961A260098F54F /* SettingTableViewController.m */; };
+		876932641E9623020098F54F /* LayerSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 876932631E9623020098F54F /* LayerSetting.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		876932501E95F15F0098F54F /* CAEmitterLayerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAEmitterLayerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		876932541E95F15F0098F54F /* CAEmitterLayerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAEmitterLayerDemoTests.m; sourceTree = "<group>"; };
 		876932561E95F15F0098F54F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8769325F1E961A260098F54F /* SettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingTableViewController.h; sourceTree = "<group>"; };
+		876932601E961A260098F54F /* SettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingTableViewController.m; sourceTree = "<group>"; };
+		876932621E9623020098F54F /* LayerSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerSetting.h; sourceTree = "<group>"; };
+		876932631E9623020098F54F /* LayerSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerSetting.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				8769323E1E95F15F0098F54F /* AppDelegate.m */,
 				876932401E95F15F0098F54F /* ViewController.h */,
 				876932411E95F15F0098F54F /* ViewController.m */,
+				876932621E9623020098F54F /* LayerSetting.h */,
+				876932631E9623020098F54F /* LayerSetting.m */,
+				8769325F1E961A260098F54F /* SettingTableViewController.h */,
+				876932601E961A260098F54F /* SettingTableViewController.m */,
 				876932431E95F15F0098F54F /* Main.storyboard */,
 				876932461E95F15F0098F54F /* Assets.xcassets */,
 				876932481E95F15F0098F54F /* LaunchScreen.storyboard */,
@@ -215,8 +225,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				876932611E961A260098F54F /* SettingTableViewController.m in Sources */,
 				876932421E95F15F0098F54F /* ViewController.m in Sources */,
 				8769323F1E95F15F0098F54F /* AppDelegate.m in Sources */,
+				876932641E9623020098F54F /* LayerSetting.m in Sources */,
 				8769323C1E95F15F0098F54F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
