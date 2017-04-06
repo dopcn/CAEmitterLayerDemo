@@ -129,7 +129,7 @@
     }
     UIAlertAction *cancel = [UIAlertAction actionWithTitle:@"cancel" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) { }];
     [ac addAction:cancel];
-    [self presentViewController:ac animated:YES completion:nil]; 
+    [self presentViewController:ac animated:YES completion:nil];
 }
 
 @end
